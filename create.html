@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+		<title>Sign Up to Afritek</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="image/x-icon" href="atcon.ico">
+</head>
+<body>
+
+	<div class="container">
+
+		<div id="header">
+			<h1>Welcome to Afritek</h1>
+		</div>
+	
+			<form action="/action_page.php" method="post" autocomplete="on">
+				<fieldset>
+					<legend>Account Info*</legend>
+					<div>
+						<label for="fname">First Name</label><br>
+						<input type="text" id="fname" name="fname" required>
+					</div>
+	
+					<div>
+						<label for="lname">Last Name</label><br>
+						<input type="text" id="lname" name="lname" required>
+					</div>
+					
+					<div>
+						<label for="email">Email</label><br>
+						<input type="email" id="email" name="email" required>
+					</div>
+					
+					<div>
+						<label for="pwd">Password</label><br>
+						<input type="password" id="pwd" name="pwd" required><br>
+					</div>
+					
+					<label>D.O.B</label><br>
+					<input type="date" name="birthday" required><br>
+
+					<label>Gender:</label>
+					<input type="radio" name="gender" value="Male" required> Male
+					<input type="radio" name="gender" value="Female" required> Female
+					<input type="radio" name="gender" value="Other" required> Other
+					<br>
+
+					<label>Location:</label>
+					<select name="location">
+						<option value="Nigeria" >Nigeria</option>
+						<option value="UK" >UK</option>
+						<option value="USA" >USA</option>
+						<option value="Others" >Others</option>
+					</select>
+					<br>
+				</fieldset>
+	
+				<fieldset>
+					<legend>Interest:</legend>
+					<label>Pets:</label><br>
+					<input type="checkbox" name="cat"> Cat<br>
+					<input type="checkbox" name="dog"> Dog<br>
+					<input type="checkbox" name="other"> other<br>
+				</fieldset>
+				
+				<div id="continue">
+					<input type="Submit" value="Sign Up"> 
+				</div>
+			</form>
+			
+			<div id="aside">
+				<p>Have an account? <a href="login.html">Login</a></p>
+			</div>
+
+	</div>
+	</body>
+</html>

@@ -1,0 +1,140 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body	{
+	font-family: sans-serif;
+	line-height: 2.0em;
+}
+
+.container	{
+	width: auto;
+	margin: auto;
+	overflow: hidden;
+	padding: 10px;
+}
+
+header {
+	text-align: center;
+}
+
+#logo {
+	color: navy;
+	width: 35px;
+	height: 25px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+a	{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#nav ul	{
+	padding: 0;
+	font-size: 2vw;
+	height:50px;
+}
+
+li	{
+	list-style: none;
+	float: left;
+	padding-right: 40px;
+}
+
+#nav .active	{
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	color: #000;
+}
+
+
+#paragraph	{
+	font-size: 2vw;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	justify-content: center;
+}
+
+dt	{
+	font-family: fantasy;
+	font-size: 1.2em;
+	padding-right: 5px;
+	text-align: center;
+}
+
+dd	{
+	font-size: 1em;
+	list-style: none;
+	float: left;
+	padding: 0px;
+}
+
+img		{
+	width: 380px;
+	height: 200px;
+	transition: all 1s;
+}
+
+img:hover	{
+	transform: scale(1.1);
+}
+
+.iphsam {
+	width: 600px;
+	height: 330px;
+}
+
+#image-content, #otherimages	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 20px;
+}
+
+#apple	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.imagetext {
+	text-align: center;
+	justify-content: center;
+}
+
+#aside {
+	text-align: center;
+}
+
+#section {
+	text-align: center;
+	padding: 10px;
+}
+
+#footer	{
+	text-align: center;
+	padding: 10px;
+	margin-top: 100px;
+}
+
+fieldset {
+	width: 500px;
+	margin: auto;
+	background-color:aliceblue;
+}
+
+#continue {
+	text-align: center;
+	padding-right: 458px;
+}
